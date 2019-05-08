@@ -1,0 +1,634 @@
+html {
+    background: url("Resources/title_picture.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.title_content {
+    position: absolute;
+    height: 35vh;
+    width: 50%;
+    top: 50%;
+    left: 10%;
+    margin-top: -15vh;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+#lattitude_anchor{
+    color: white;
+}
+
+.landing_box1 {
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 3%;
+    height: 70vh;
+    width: 50%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    font-size: .85vmax;
+}
+
+.landing_box1 h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.25vmax;
+}
+
+.landing_box1 p {
+    margin-left: 1%;
+}
+
+.landing_box1Content img {
+    height: 45vh;
+    width: 55%;
+    margin-top: 2vh;
+    float: right;
+}
+
+.landing_box2 {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 57%;
+    height: 90vh;
+    width: 40%;
+    background-color: rgb(235, 231, 231, 0.8);
+    font-family: Georgia;
+}
+
+.landing_box2_title {
+    margin-top: 2vh;
+}
+
+.landing_box2_title h2 {
+    font-size: 1.75vmax;
+}
+
+#Temp {
+    height: 38vh;
+    width: 99%;
+    margin-top: 2vh;
+}
+
+#Humidity {
+    height: 38vh;
+    width: 99%;
+    margin-top: 2vh;
+}
+
+#Wind {
+    height: 38vh;
+    width: 99%;
+    margin-top: 2vh;
+}
+
+#Clouds {
+    height: 38vh;
+    width: 99%;
+    margin-top: 2vh;
+}
+
+.tempViz_box1 {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5%;
+    height: 90vh;
+    width: 45%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    font-size: 1.1vmax;
+}
+
+.tempViz_box1 h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.5vmax;
+}
+
+.tempViz_box1 p {
+    margin-left: 1%;
+}
+
+.tempViz_box1Content img {
+    height: 45vh;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 12.5%;
+}
+
+.humidityViz_box1 {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5%;
+    height: 90vh;
+    width: 45%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    font-size: 1.1vmax;
+}
+
+.humidityViz_box1 h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.5vmax;
+}
+
+.humidityViz_box1 p {
+    margin-left: 1%;
+}
+
+.humidityViz_box1Content img {
+    height: 45vh;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 12.5%;
+}
+
+.windViz_box1 {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5%;
+    height: 75vh;
+    width: 45%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    font-size: 1.1vmax;
+}
+
+.windViz_box1 h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.5vmax;
+}
+
+.windViz_box1 p {
+    margin-left: 1%;
+}
+
+.windViz_box1Content img {
+    height: 45vh;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 12.5%;
+}
+
+.cloudViz_box1 {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5%;
+    height: 80vh;
+    width: 45%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    font-size: 1.1vmax;
+}
+
+.cloudViz_box1 h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.5vmax;
+}
+
+.cloudViz_box1 p {
+    margin-left: 1%;
+}
+
+.cloudViz_box1Content img {
+    height: 45vh;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 12.5%;
+}
+
+.vizPages_box2 {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 65%;
+    height: 55vh;
+    width: 30%;
+    background-color: rgb(235, 231, 231, 0.8);
+    font-family: Georgia;
+}
+
+.vizPages_box2_title {
+    margin-top: 2vh;
+}
+
+.vizPages_box2_title h2 {
+    font-size: 1.75vmax;
+}
+
+#vizPages_temp {
+    height: 21vh;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+#vizPages_humidity {
+    height: 21vh;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+#vizPages_wind {
+    height: 21vh;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+#vizPages_clouds {
+    height: 21vh;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.comparisons_box {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 25%;
+    height: 91vh;
+    width: 50%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+}
+
+.comparisons_box h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.25vmax;
+}
+
+.comparisons_box h5 {
+    margin-left: 1%;
+    font-size: 1vmax;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5vmax;
+    color: blue;
+}
+
+.comparisons_plot3 {
+    margin-top: 1vh;
+}
+
+.comparisons_plot4 {
+    margin-top: 1vh;
+}
+
+#comparisons_temp {
+    height: 31vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+#comparisons_humidity {
+    height: 31vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+#comparisons_wind {
+    height: 31vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+#comparisons_clouds {
+    height: 31vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+.data_box {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5%;
+    height: 100vh;
+    width: 90%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    overflow: auto;
+}
+
+.data_box .data_headingRow {
+    margin-top: 3vh;
+    margin-left: 1%;
+}
+
+.data_box h1 {
+    font-size: 3vmax;
+}
+
+.data_box em {
+    font-size: 1vmax;
+}
+
+.table {
+    margin-left: 1.5%;
+    width: 97%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+    .landing_box1 {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 3%;
+        height: 45vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+        font-size: 1.25vmax
+    }
+
+    .landing_box1Content img {
+        height: 22vh;
+        width: 37%;
+        margin-top: -0.5vh;
+    }
+
+    .landing_box1 h1 {
+        margin-top: 3vh;
+        margin-left: 1%;
+        font-size: 4vmax;
+    }
+
+    .landing_box2 {
+        position: absolute;
+        margin-top: 48vh;
+        margin-left: 3%;
+        height: 50vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.8);
+        font-family: Georgia;
+    }
+
+    .landing_box2_title h2 {
+        font-size: 3vmax;
+    }
+
+    #Temp {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    #Humidity {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    #Wind {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    #Clouds {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .tempViz_box1 {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 3%;
+        height: 72vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+        font-size: 1.25vmax;
+    }
+
+    .tempViz_box1Content img {
+        height: 45vh;
+        width: 99%;
+        margin-top: 8vh;
+        margin-left: 0.5%;
+    }
+
+    .tempViz_box1Content p {
+        margin-top: -7vh;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        font-size: 1.5vmax;
+    }
+
+    .tempViz_box1 h1 {
+        margin-top: 1vh;
+        margin-left: 1%;
+        font-size: 4vmax;
+    }
+
+    .humidityViz_box1 {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 3%;
+        height: 72vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+        font-size: 1.25vmax;
+    }
+
+    .humidityViz_box1Content img {
+        height: 45vh;
+        width: 99%;
+        margin-top: 8vh;
+        margin-left: 0.5%;
+    }
+
+    .humidityViz_box1Content p {
+        margin-top: -7vh;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        font-size: 1.5vmax;
+    }
+
+    .humidityViz_box1 h1 {
+        margin-top: 1vh;
+        margin-left: 1%;
+        font-size: 4vmax;
+    }
+
+    .windViz_box1 {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 3%;
+        height: 72vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+        font-size: 1.25vmax;
+    }
+
+    .windViz_box1Content img {
+        height: 45vh;
+        width: 99%;
+        margin-top: 8vh;
+        margin-left: 0.5%;
+    }
+
+    .windViz_box1Content p {
+        margin-top: -7vh;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        font-size: 1.5vmax;
+    }
+
+    .windViz_box1 h1 {
+        margin-top: 1vh;
+        margin-left: 1%;
+        font-size: 4vmax;
+    }
+
+    .cloudViz_box1 {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 3%;
+        height: 72vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+        font-size: 1.25vmax;
+    }
+
+    .cloudViz_box1Content img {
+        height: 45vh;
+        width: 99%;
+        margin-top: 8vh;
+        margin-left: 0.5%;
+    }
+
+    .cloudViz_box1Content p {
+        margin-top: -7vh;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        font-size: 1.5vmax;
+    }
+
+    .cloudViz_box1 h1 {
+        margin-top: 1vh;
+        margin-left: 1%;
+        font-size: 4vmax;
+    }
+
+    .vizPages_box2 {
+        position: absolute;
+        margin-top: 75vh;
+        margin-left: 3%;
+        height: 50vh;
+        width: 94%;
+        background-color: rgb(235, 231, 231, 0.8);
+        font-family: Georgia;
+    }
+
+    .vizPages_box2_title h2 {
+        font-size: 3vmax;
+    }
+
+    #vizPages_temp {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    #vizPages_humidity {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    #vizPages_wind {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    #vizPages_clouds {
+        height: 20vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .comparisons_box {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 17.5%;
+        height: 225vh;
+        width: 65%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+    }
+    
+    .comparisons_box h1 {
+        margin-top: 3vh;
+        margin-left: 1%;
+        font-size: 3.3vmax;
+    }
+    
+    .comparisons_box h5 {
+        margin-left: 1%;
+        font-size: 2vmax;
+    }
+
+    .row h3 {
+        text-align: center;
+        font-size: 2.5vmax;
+        color: blue;
+    }
+
+    .comparisons_plot2 {
+        margin-top: 2vh;
+    }
+
+    .comparisons_plot3 {
+        margin-top: 2vh;
+    }
+    
+    .comparisons_plot4 {
+        margin-top: 2vh;
+    }
+    
+    #comparisons_temp {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+    
+    #comparisons_humidity {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+    
+    #comparisons_wind {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+    
+    #comparisons_clouds {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+
+    .data_box h1 {
+        font-size: 5vmax;
+    }
+    
+    .data_box em {
+        font-size: 2vmax;
+    }
+}
