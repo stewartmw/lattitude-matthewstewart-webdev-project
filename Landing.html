@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lattitude - Landing Page</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"
+           href="Landing.html">Lattitude</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropDown"
+                aria-controls="navbarNavDropDown"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="navbarNavDropDown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="navbarDropdownMenuLink"
+                       role="button"
+                       data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                           href="TempViz.html">Temperature</a>
+                        <a class="dropdown-item"
+                           href="HumidityViz.html">Humidity</a>
+                        <a class="dropdown-item"
+                           href="WindViz.html">Wind Speed</a>
+                        <a class="dropdown-item"
+                           href="CloudViz.html">Cloud Cover</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="Comparisons.html">Comparisons <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="landing_box-set">
+        <div class="landing_box1">
+            <h1>Summary: Weather vs. Latitude</h1>
+            <div class="landing_box1Content">
+                <p>
+                    <img src="Output/Temp.png"
+                         alt="Temperature vs. Latitude"
+                         title="Temperature vs. Latitude">
+                    <br>
+                    The purpose of this project was to analyze various weather phenomena vs. latitude. In particular, we
+                    wanted to analyze the following:
+                    <br>
+                    <ul>
+                        <li>Temperature</li>
+                        <li>Humidity</li>
+                        <li>Wind Speed</li>
+                        <li>Cloud Cover</li>
+                    </ul>
+                    <p>
+                        We were first provided a dataset containing a list of over 500 randomly selected cities. This
+                        datset
+                        contained multiple fields of information, including the name of the city and the four weather
+                        phenomena
+                        mentioned above. The goal was to visualize this data and examine whether any patterns could be
+                        detected
+                        as location approached the equator (i.e., as location approached latitude of 0). Note that this
+                        data was gathered on June 13, 2018.
+                    </p>
+                    <p>
+                        Contained within this site, you will find links to an overall comparisons page, in addition to
+                        links
+                        to the individual visualizations mentioned above. Finally, you will be able to view the raw data
+                        for
+                        yourself using the Data link.
+                    </p>
+                    <p>
+                        <em>(Pictured above: sample visualization of Temperature vs. Latitude)</em>
+                    </p>
+                </p>
+            </div>
+        </div>
+        <div class="landing_box2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 landing_box2_title">
+                        <h2>Visualizations</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <a href="TempViz.html"
+                           id="landing_anchorTemp">
+                            <img id="Temp"
+                                 src="Output/Temp.png"
+                                 alt="Temperature vs. Latitude"
+                                 title="Temperature vs. Latitude">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <a href="HumidityViz.html"
+                           id="landing_anchorHumidity">
+                            <img id="Humidity"
+                                 src="Output/Humidity.png"
+                                 alt="Humidity vs. Latitude"
+                                 title="Humidity vs. Latitude">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <a href="WindViz.html"
+                           id="landing_anchorWind">
+                            <img id="Wind"
+                                 src="Output/Wind.png"
+                                 alt="Wind Speed vs. Latitude"
+                                 title="Wind Speed vs. Latitude">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <a href="CloudViz.html"
+                           id="landing_anchorWind">
+                            <img id="Clouds"
+                                 src="Output/Clouds.png"
+                                 alt="Cloud Cover vs. Latitude"
+                                 title="Cloud Cover vs. Latitude">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
